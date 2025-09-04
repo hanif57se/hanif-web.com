@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
@@ -25,6 +25,9 @@
     section {
       padding: 40px 20px;
     }
+    h2 {
+      color: #1877F2;
+    }
     .btn {
       display: inline-block;
       padding: 12px 25px;
@@ -36,6 +39,24 @@
     }
     .btn:hover {
       background: #0d5bd7;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .service-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #1877F2;
+      font-weight: bold;
     }
     footer {
       background: #222;
@@ -55,13 +76,35 @@
 
   <section id="about">
     <h2>আমার সম্পর্কে</h2>
-    <p>আমি Hanif Khan, Facebook & YouTube এর বিভিন্ন সমস্যা সমাধান করি। Copyright, Monetization, ID Disabled, Verification সহ নানা বিষয় নিয়ে কাজ করি।</p>
+    <p>আমি Hanif Khan, Facebook & YouTube এর বিভিন্ন সমস্যা সমাধান করি। 
+    Copyright, Monetization, ID Disabled, Verification সহ নানা বিষয় নিয়ে কাজ করি।</p>
+  </section>
+
+  <section id="services">
+    <h2>আমার সেবা</h2>
+    <div class="services">
+      <div class="service-card">✅ Facebook ID Disabled Solve</div>
+      <div class="service-card">✅ Copyright Strike Remove</div>
+      <div class="service-card">✅ Monetization Problem Fix</div>
+      <div class="service-card">✅ Page & Profile Verification</div>
+      <div class="service-card">✅ YouTube Channel Support</div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>যোগাযোগ করুন</h2>
     <p>আপনার সমস্যার সমাধানের জন্য নিচের ফর্মে ক্লিক করুন:</p>
     <a href="https://form.jotform.com/252464377119462" target="_blank" class="btn">Contact Form</a>
+  </section>
+
+  <section id="social">
+    <h2>আমাকে খুঁজে পান</h2>
+    <div class="social-links">
+      <a href="https://www.facebook.com/share/15Eso8uUmX6/" target="_blank">Facebook</a> |
+      <a href="https://wa.me/01314486076" target="_blank">WhatsApp</a> |
+      <a href="mailto:a.hanif3716@gmail.com">Email</a> |
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
   </section>
 
   <footer>
